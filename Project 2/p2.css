@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: coral;
+}
+
+.heading{
+    padding-bottom: 1rem;
+
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+   
+}
+form{
+    
+    background-color:lightgrey;
+    padding: 2rem 3rem 3rem 3rem;
+    color: rebeccapurple;
+    border-radius: 1.5rem;
+
+}
+
+.FROM_TO_CONTAINER{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+.From,.To{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.To{
+    
+    padding-left: 15%;
+   
+}
+
+img{
+    height: 3rem;
+    width: 3.8rem;
+    
+}
+.Input,.Output{
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.exchange_container{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+button{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 2.5rem;
+    border-radius:5px;
+    color: rebeccapurple;
+    border-color: whitesmoke;
+    font-weight: 700;
+}
+
+input{
+
+   
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    border-color: lightgrey;
+    font-size: larger;
+    outline: none;
+    padding-left: 0.5rem;
+}
+
+.exchange_rate{
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+
+select{
+    margin-left: 0.5rem;
+    border: none;
+    padding:0.25rem;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    border-color: rebeccapurple;
+    font-weight:800 ;
+    background-color: rebeccapurple;
+}
+
+.exchange_sign{
+    padding-left: 2rem;
+}
